@@ -1,0 +1,124 @@
+.ui-main-head-div{
+    display: flex;
+    margin: 7% 0% 5% 10%;
+}
+.ui-main-heading{
+    width: 45vw;
+    margin: 0% 0% 5% 1%;
+}
+.ui-main-heading>div>h2{
+    font-size: 7vh;
+    font-weight: 700;
+    color: rgb(157, 0, 255);
+}
+.ui-main-heading>span{
+    font-size: 3vh;
+    margin: 7% 0% 0% 1%;
+}
+
+.ui-main-span-div{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    font-size: 3vh;
+    margin: 3% 0% 0% -8%;
+}
+.ui-main-span-div>span{
+    display: block;
+    margin: 0% 0% 0% 10%;
+}
+.video-div>video{
+    height: 70vh;
+    margin: 0% 0% 0% 5%;
+}
+
+@media only screen and (max-width: 920px) {
+
+    .ui-main-head-div{
+        margin: 7% 0% 5% 0%;
+        padding: 0% 2% 0% 2%;
+    }
+    .ui-main-heading{
+        width: 100%;
+        margin: 0% 0% 5% 1%;
+    }
+    .ui-main-heading>div>h2{
+        font-size: 4vh;
+        font-weight: 600;
+    }
+    .ui-main-heading>span{
+        font-size: 2vh;
+    }
+    
+    .ui-main-span-div{
+        font-size: 2vh;
+    }
+    .ui-main-span-div>span{
+        display: block;
+        margin: 0% 0% 0% 10%;
+    }
+    .video-div>video{
+        display: none;
+    }
+    
+
+}
+
+/* ................................................................................................................. */
+.ui-offer-main-head{
+    margin: 5% 0% 0% 0%;
+    font-size: 6vh;
+    font-weight: 700;
+    color: rgb(157, 0, 255);
+}
+.ui-offer-main-div{
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 0% 0% 2.5%;
+    /* border: 1px solid black; */
+}
+.ui-offer-content-div{
+    width: 25%;
+    border-radius: 15px;
+    padding: 2% 2% 2% 2%;
+    margin: 2% 3% 2% 3%;
+    box-shadow: 2px 2px 10px rgb(164, 83, 214);
+    /* border: 1px solid black; */
+}
+.ui-offer-content-head{
+    width: 100%;
+    color: rgb(164, 83, 214);
+    margin: 0% 0% 3% 0%;
+    /* border: 1px solid black; */
+}
+.ui-offer-content-head>h2{
+    font-size: 4vh;
+}
+.ui-offer-content-head>p{
+    font-size: 3.3vh;
+}
+@media only screen and (max-width: 920px) {
+
+    .ui-offer-main-head{
+        font-size: 4vh;
+        font-weight: 600;
+    }
+    .ui-offer-main-div{
+        display:block;
+    }
+    .ui-offer-content-div{
+        width: 100%;
+        margin: 2% 0% 2% 0%;
+    }
+    .ui-offer-content-head{
+        margin: 0% 0% 3% 0%;
+    }
+    .ui-offer-content-head>h2{
+        font-size: 3vh;
+    }
+    .ui-offer-content-head>p{
+        font-size: 2.3vh;
+    }
+
+}

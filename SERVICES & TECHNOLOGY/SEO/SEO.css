@@ -1,0 +1,89 @@
+.seo-main-head-div{
+    display: flex;
+    margin: 7% 0% 5% 10%;
+}
+.seo-main-heading{
+    width: 45vw;
+    margin: 0% 0% 5% 1%;
+}
+.seo-main-heading>div>h2{
+    font-size: 7vh;
+    font-weight: 700;
+    color: rgb(157, 0, 255);
+}
+.seo-main-heading>span{
+    font-size: 3vh;
+    margin: 7% 0% 0% 1%;
+}
+
+.seo-main-span-div{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3vh;
+    margin: 3% 0% 0% -8%;
+}
+.seo-main-span-div>span{
+    margin: 0% 0% 0% 10%;
+}
+.seo-video-div>video{
+    height: 70vh;
+    margin: 0% 0% 0% 5%;
+}
+
+@media only screen and (max-width: 920px) {
+
+    .seo-main-head-div{
+        margin: 7% 0% 5% 0%;
+        padding: 0% 2% 0% 2%;
+    }
+    .seo-main-heading{
+        width: 100%;
+    }
+    .seo-main-heading>div>h2{
+        font-size: 4vh;
+        font-weight: 600;
+    }
+    .seo-main-heading>span{
+        font-size: 2vh;
+    }
+    
+    .seo-main-span-div{
+        font-size: 2vh;
+        margin: 3% 0% 0% 0%;
+    }
+    .seo-main-span-div>span{
+        margin: 0% 0% 0% 10%;
+    }
+    .seo-video-div>video{
+        height: 70vh;
+        margin: 0% 0% 0% 5%;
+    }
+
+}
+
+/* ........................................................................................................... */
+.seo-benefit-main-div{
+    margin: 5% 0% 3% 10%;
+    width: 80%;
+}
+.seo-benefit-main-div>h2{
+    font-size: 6vh;
+    font-weight: 700;
+    margin: 0% 0% 5% 0%;
+    color: rgb(157, 0, 255);
+}
+.seo-benefit-main-div>ul{
+    font-size: 3.3vh;
+    text-align: justify;
+}
+@media only screen and (max-width: 920px) {
+
+    .seo-benefit-main-div>h2{
+        font-size: 4vh;
+        font-weight: 600;
+    }
+    .seo-benefit-main-div>ul{
+        font-size: 2vh;
+    }
+
+}
